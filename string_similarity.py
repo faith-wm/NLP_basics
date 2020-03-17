@@ -15,9 +15,6 @@ import rouge
 
 import gensim
 
-s1='the patient is sick again'
-s2='the patient will was advice to come for tomorrow again'
-
 
 def sentence_lemmatization(sentence_tokens):
     lemmatizer=WordNetLemmatizer()
@@ -197,6 +194,8 @@ def embedding_based_similarity(s1,s2, embedding_dim,embedding_location):
     return [cosine,euclidean,squareEuclidean,correlation]
 
 
+s1='the patient is sick again'
+s2='the patient will was advice to come for tomorrow again'
 
-# embeddings_path="/Users/..../GoogleNews-vectors-negative300.bin.gz"
+# embeddings_path="...../GoogleNews-vectors-negative300.bin.gz"
 # print(embedding_based_similarity(s1,s2,300,embeddings_path))
