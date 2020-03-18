@@ -1,5 +1,4 @@
 
-
 #pos tagging with nltk
 import nltk
 sentence='the patient has a headache'
