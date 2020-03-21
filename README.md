@@ -7,5 +7,5 @@ This repository contains basic NLP methods using Python.
   - Get word synonyms and antonyms from WordNet
   - Word stemming and lemmatization
   - String similarity measures
-  - Text parsing
+  - Dependency parsing
   - Word sense disambiguation
