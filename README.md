@@ -10,3 +10,4 @@ This repository contains basic NLP methods using Python.
   - Dependency parsing
   - Word sense disambiguation
   - Converting words to numbers and numbers to words
+  - Byte pair encoding (BPE)
